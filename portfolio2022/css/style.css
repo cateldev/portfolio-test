@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&family=Flamenco&family=Montserrat&family=Noto+Sans+JP&family=Noto+Sans+TC&family=Poppins&display=swap');
+
+body {
+   box-sizing: border-box;
+   margin: 0px;
+   padding: 0px;
+   font-family: 'Poppins', sans-serif;
+}
+
+.header-menu {
+   display: flex;
+   background-color: #232C33;
+   box-sizing: border-box;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   align-items: center;
+   width: 100vw;
+   margin: 0 auto;
+   padding: 10px 250px;
+   height: 10vh;
+}
+
+.header-menu li {
+   font-family: 'Be Vietnam Pro', sans-serif;
+   list-style-type: none;
+   display: inline-block;
+   font-size: 10px;
+   padding: 0 10px;
+}
+
+.header-menu a {
+   text-decoration: none;
+   color: #fff;
+} 
+
+
+.banner {
+   background-color: #232C33;
+   height: 90vh;
+}
+
+.banner-text{
+   position: absolute;
+   top: 40%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 100%;
+   color: #fff;
+}
+
+.banner-text h2 {
+   text-align: center;
+   position: absolute;
+   left: 50%;
+   font-size: 12px;
+   margin: 0;
+   text-transform: uppercase;
+   font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+
+.box {
+   font-size: 60px;
+   font-weight: bold;
+   opacity: 0;
+   position: absolute;
+   width: 100%;
+   text-align: center;  
+}
+
+.b1 {
+   animation: ani1 5s infinite;
+   font-family: 'Times New Roman', Times, serif;
+}
+
+.b2 {
+   animation: ani2 5s infinite;
+   font-family: 'Flamenco', cursive;
+}
+
+.b3 {
+   animation: ani3 5s infinite;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.b4 {
+   animation: ani4 5s infinite;
+   font-family: 'Noto Sans JP', sans-serif;
+}
+
+.b5 {
+   animation: ani5 5s infinite;
+   font-family: 'Noto Sans TC', sans-serif;
+}
+
+@keyframes ani1 {
+   0% {
+      opacity: 0;
+   }
+   10% {
+      opacity: 1;
+   }
+   20% {
+      opacity: 0;
+   }
+}
+
+@keyframes ani2 {
+   20% {
+      opacity: 0;
+   }
+   30% {
+      opacity: 1;
+   }
+   40% {
+      opacity: 0;
+   }
+}
+
+@keyframes ani3 {
+   40% {
+      opacity: 0;
+   }
+   50% {
+      opacity: 1;
+   }
+   60% {
+      opacity: 0;
+   }
+}
+
+@keyframes ani4 {
+   60% {
+      opacity: 0;
+   }
+   70% {
+      opacity: 1;
+   }
+   80% {
+      opacity: 0;
+   }
+}
+
+@keyframes ani5 {
+   80% {
+      opacity: 0;
+   }
+   90% {
+      opacity: 1;
+   }
+   100% {
+      opacity: 0;
+   }
+}
