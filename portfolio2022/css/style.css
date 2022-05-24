@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&family=Flamenco&family=Montserrat&family=Noto+Sans+JP&family=Noto+Sans+TC&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Be+Vietnam+Pro:wght@100&family=Flamenco&family=Montserrat&family=Noto+Sans+JP&family=Noto+Sans+TC&family=Poppins&display=swap');
 
 @import url("/css/animation.css");
 
@@ -98,6 +98,28 @@ body {
 .portfolio-cv {
    margin: 0;
    padding: 0;
-   display: grid;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
    max-width: 1200px;
+}
+
+.portfolio-cv h1 {
+   height: 95px;
+   display: flex;
+   justify-content: center;
+   font-family: "Be Vietnam Pro" sans-serif;
+   font-size: 90px;
+   margin-top: 170px;
+   margin-bottom: 10px;
+}
+
+.portfolio-cv h3 {
+   display: inline-flex;
+   justify-content: center;
+   margin-top: 0;
+   margin-bottom: 160px;
+   font-family: 'Allison', cursive;
+   font-size: 45px;
+   word-spacing: 35px;
 }
