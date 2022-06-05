@@ -1,0 +1,111 @@
+header{
+  width: 100vw;
+  height: 10vh;
+  background-color: transparent;
+  position: fixed;
+
+}
+
+
+.header-menu {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  height: 10vh;
+  width: 850px;
+}
+
+.header-menu li {
+  font-family: 'Be Vietnam Pro', sans-serif;
+  text-transform: uppercase;
+  list-style-type: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 0 10px;
+}
+
+.header-menu a {
+  text-decoration: none;
+  color: #fff;
+} 
+
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #232C33;
+  height: 100vh;
+  width: 100vw;
+}
+
+.box {
+  font-weight: bold;
+  opacity: 0;
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner-text{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  color: #fff;
+}
+
+hr {
+  width: 540px;
+  color: #fff;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+} 
+
+.banner-text h2 {
+  display: flex;
+  font-size: 18px;
+  justify-content: center;
+  text-transform: uppercase;
+  word-spacing: 0px;
+  letter-spacing: 2px;
+  font-weight: 100;
+  margin: 12px;
+} 
+
+.b1 {
+  font-size: 100px;
+  animation: ani1 5s infinite;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.b2 {
+  font-size: 100px;
+  animation: ani2 5s infinite;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.b3 {
+  font-size: 100px;
+  animation: ani3 5s infinite;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.b4 {
+  font-size: 100px;
+  animation: ani4 5s infinite;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.b5 {
+  font-size: 100px;
+  animation: ani5 5s infinite;
+  font-family: 'Times New Roman', Times, serif;
+}
