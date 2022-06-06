@@ -1,11 +1,9 @@
 header{
-  width: 100vw;
+  width: 98vw;
   height: 10vh;
-  background-color: transparent;
+  background-color: #232C33;
   position: fixed;
-
 }
-
 
 .header-menu {
   display: flex;
