@@ -1,7 +1,7 @@
-header{
-  width: 98vw;
+header {
+  width: 100vw;
   height: 10vh;
-  background-color: #232C33;
+  background-color: #232c33;
   position: fixed;
 }
 
@@ -16,7 +16,7 @@ header{
 }
 
 .header-menu li {
-  font-family: 'Be Vietnam Pro', sans-serif;
+  font-family: "Be Vietnam Pro", sans-serif;
   text-transform: uppercase;
   list-style-type: none;
   display: inline-block;
@@ -27,14 +27,13 @@ header{
 .header-menu a {
   text-decoration: none;
   color: #fff;
-} 
-
+}
 
 .banner {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #232C33;
+  background-color: #232c33;
   height: 100vh;
   width: 100vw;
 }
@@ -48,7 +47,7 @@ header{
   transform: translate(-50%, -50%);
 }
 
-.banner-text{
+.banner-text {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -65,7 +64,7 @@ hr {
   display: flex;
   justify-content: center;
   margin-top: 50px;
-} 
+}
 
 .banner-text h2 {
   display: flex;
@@ -76,34 +75,34 @@ hr {
   letter-spacing: 2px;
   font-weight: 100;
   margin: 12px;
-} 
+}
 
 .b1 {
   font-size: 100px;
   animation: ani1 5s infinite;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .b2 {
   font-size: 100px;
   animation: ani2 5s infinite;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .b3 {
   font-size: 100px;
   animation: ani3 5s infinite;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .b4 {
   font-size: 100px;
   animation: ani4 5s infinite;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .b5 {
   font-size: 100px;
   animation: ani5 5s infinite;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
 }
