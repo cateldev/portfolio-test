@@ -1,20 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Allison&family=Be+Vietnam+Pro:wght@100&family=Flamenco&family=Montserrat&family=Noto+Sans+JP&family=Noto+Sans+TC&family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Allison&family=Be+Vietnam+Pro:wght@100&family=Flamenco&family=Montserrat&family=Noto+Sans+JP&family=Noto+Sans+TC&family=Poppins&display=swap");
 
 @import url("/css/animation.css");
 @import url("./landing-page.css");
 @import url("./port-home.css");
 @import url("./about-me.css");
+@import url("/css/button.css");
 
 * {
-   box-sizing: border-box;
-   margin: 0px;
-   padding: 0px;
-   font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
 }
 
-body, html{
-   width: 100vw;
-   height: 100%;
-   overflow-x: hidden;
+body,
+html {
+  width: 100vw;
+  height: 100%;
 }
-
