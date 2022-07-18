@@ -60,11 +60,16 @@ header {
 
 hr {
   width: 540px;
-  color: #fff;
-  border: 1px solid #fff;
+  border: 1px solid #ffbf00;
+  border-width: 2px;
+  border-image-slice: 1;
   display: flex;
   justify-content: center;
   margin-top: 50px;
+}
+
+.border-gradient {
+  border-image-source: linear-gradient(to left, #ffbf00, #f2a50c);
 }
 
 .banner-text h2 {
