@@ -6,6 +6,7 @@
 @import url("./about-me.css");
 @import url("/css/button.css");
 @import url("./knowledge.css");
+@import url("./workflow.css");
 
 * {
   box-sizing: border-box;
